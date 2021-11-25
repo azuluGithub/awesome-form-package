@@ -1,11 +1,6 @@
 //local imports
 import './Button.css';
 
-/**
- * #BUTTON ATTRIBUTES:
- *  => backgroundColor [string], color [string], borderColor [string]
- *  => fontSize [number], fontWeight [number], border [number], borderRadius [number]
- */
 const Button = (props) => {
   const customBtn = {
     borderRadius: props.borderRadius ? `${props.borderRadius}px` : '2px',

@@ -1,8 +1,3 @@
-/**
- * #FIELD ATTRIBUTES:
- *  => marginTop [number], marginBottom [number]
- */
-
 const Field = (props) => {
   const customField = {
     marginTop: props.marginTop ? props.marginTop : '10px',

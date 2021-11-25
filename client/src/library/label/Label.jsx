@@ -1,9 +1,5 @@
-/**
- * #INPUT ATTRIBUTES:
- *  => color [string], borderColor [string]
- *  => fontSize [number], fontWeight [number]
- */
-const Label = (props) => {
+const Label = props => {
+
   const customLabel = {
     fontSize: props.fontSize ? `${props.fontSize}px` : '15px',
     color: props.color ? props.color : 'dimgray',

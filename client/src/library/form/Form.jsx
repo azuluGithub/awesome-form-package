@@ -1,11 +1,6 @@
 //local import
 import './Form.css';
 
-/**
- * #Form ATTRIBUTES:
- *  => backgroundColor [string], borderColor [string]
- *  => border [number], borderRadius [number]
- */
 const Form = (props) => {
 
     const customForm = {

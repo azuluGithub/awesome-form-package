@@ -15,11 +15,37 @@
  + No external libraries are used in this project
 ```
 
-<h4> FORM  </h4>
+<h4> FORM TEST 1 </h4>
 
-![form image](/screenshots/awesome-form.png)
+![validation test1](/screenshots/validation-test1.png)
 
 <hr />
+
+<h4> FORM TEST 2 </h4>
+
+![validation test2](/screenshots/validation-test2.png)
+
+<hr />
+
+<h4> FORM TEST 3 </h4>
+
+![validation test3](/screenshots/validation-test3.png)
+
+<hr />
+
+<h2> HOW THE COMPONENTS WORK </h2>
+
+```diff
+# THE APP COMPONENT IS NOT PART OF THE LIBRAY: IT JUST SHOWS HOW THE USER WOULD USE THE LIBRARY
+# ONLY USERNAME AND PASSWORD INPUTS ARE VALIDATED IN THIS PROJECT
+# YOU CAN RE-USE AS MANY COMPONENTS AS YOU PLEASE
+# YOU CAN CUSTOM STYLE THE COMPONENTS. HERE ARE THE PROPERTIES THAT CAN BE CHANGE PER COMPONENT:
+#  => FORM: backgroundColor [string], borderColor [string], border [number], borderRadius [number]
+#  => FIELD: marginTop [number], marginBottom [number]
+#  => LABEL: color [string], borderColor [string], fontSize [number], fontWeight [number]
+#  => INPUT: backgroundColor [string], color [string], borderColor [string], fontSize [number], fontWeight [number], border [number], borderRadius [number]
+#  => BUTTON: backgroundColor [string], color [string], borderColor [string], fontSize [number], fontWeight [number], border [number], borderRadius [number]
+```
 
 <h2> Stack || Languages :speech_balloon: :thought_balloon:</h2> 
 
